@@ -1,0 +1,68 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,600;1,500&family=Poppins&display=swap');
+
+body {
+  font-family: 'Poppins', sans-serif;
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: 0;
+}
+
+.top-page {
+  display: flex;
+  justify-content: space-between;
+}
+
+.ornament-top {
+  display: inline;
+}
+
+.menu1 {
+  display: inline;
+  padding: 1em 1em;
+  float: right;
+}
+
+.top-text {
+  padding: 0 10px;
+}
+
+.top-name {
+  color: #1a2236;
+  font-family: 'Playfair Display', serif;
+  padding-left: 16px;
+  font-size: 50px;
+  font-weight: 400;
+}
+
+.top-coment {
+  color: #1a2236;
+  padding: 0 16px 0 16px;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 21px;
+}
+
+.top-buton {
+  display: flex;
+  height: 50px;
+  margin: 16px 7px;
+  justify-content: center;
+  align-items: center;
+  background-color: #1a2236;
+  color: white;
+  font-size: 16px;
+  font-weight: 500;
+}
+
+.ornamen-first-botom {
+  background-image: url("/pict-mobile/image_geometry_2.svg");
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+  width: 320px;
+  height: 200px;
+  margin-left: auto;
+  margin-right: auto;
+}

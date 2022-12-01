@@ -24,10 +24,11 @@ body {
   float: right;
 }
 
-.headline{
+.headline {
   display: flex;
   flex-direction: column;
 }
+
 .top-text {
   padding: 0 10px;
 }

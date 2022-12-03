@@ -82,6 +82,7 @@ body {
 
 .projects {
   font-family: 'Playfair Display', serif;
+  margin-left: 16px;
   font-size: 50px;
   font-weight: 400;
 }
@@ -97,6 +98,11 @@ body {
     "project4"
     "project5"
     "project6";
+}
+
+.works-cards {
+  display: flex;
+  flex-direction: column;
 }
 
 .project1 {
@@ -260,6 +266,7 @@ body {
   display: flex;
   width: 288px;
   height: 50px;
+  margin-bottom: 20px;
   justify-content: space-around;
   align-items: center;
   background-color: #1a2236;
@@ -283,11 +290,17 @@ body {
   padding-right: 65px;
 }
 
+.categories {
+  padding-left: 0;
+  display: flex;
+  flex-direction: column;
+}
+
 .languages {
-  margin: 5px 0;
+  margin: 0 0;
   color: #fff;
-  width: 280px;
-  height: 280px;
+  width: 288px;
+  height: 288px;
   background: #1c528a;
   background-image: url(/pict-mobile/hash.svg);
   background-repeat: no-repeat;
@@ -298,8 +311,8 @@ body {
 .frameworks {
   margin: 5px 0;
   color: #fff;
-  width: 280px;
-  height: 280px;
+  width: 288px;
+  height: 288px;
   background: #e2505c;
   background-image: url(/pict-mobile/Group\ 18.svg);
   background-repeat: no-repeat;
@@ -311,8 +324,8 @@ body {
   background: #febf52;
   margin: 5px 0;
   color: #fff;
-  width: 280px;
-  height: 280px;
+  width: 288px;
+  height: 288px;
   background-image: url(/pict-mobile/ic_skills.svg);
   background-repeat: no-repeat;
   background-size: 102px 102px;

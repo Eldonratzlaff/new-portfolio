@@ -62,6 +62,13 @@ body {
   font-weight: 500;
 }
 
+.top-buton:hover {
+  background-color: white;
+  color: #1a2236;
+  border: 1px solid #1a2236;
+  cursor: pointer;
+}
+
 .ornamen-first-botom {
   background-image: url("/pict-mobile/image_geometry_2.svg");
   background-repeat: no-repeat;
@@ -71,4 +78,258 @@ body {
   height: 200px;
   margin-left: auto;
   margin-right: auto;
+}
+
+.projects {
+  font-family: 'Playfair Display', serif;
+  font-size: 50px;
+  font-weight: 400;
+}
+
+.midle-section {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
+  grid-template-areas:
+    "project1"
+    "project2"
+    "project3"
+    "project4"
+    "project5"
+    "project6";
+}
+
+.project1 {
+  background-image: url("/pict-mobile/Rectangle\ 21.svg");
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+  width: 320px;
+  height: 188px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.project2 {
+  background-image: url("/pict-mobile/Rectangle\ 21\ \(1\).svg");
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+  width: 320px;
+  height: 188px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.project3 {
+  background-image: url("/pict-mobile/Rectangle\ 21\ \(2\).svg");
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+  width: 320px;
+  height: 188px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.project4 {
+  background-image: url("/pict-mobile/Rectangle\ 21\ \(3\).svg");
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+  width: 320px;
+  height: 188px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.project5 {
+  background-image: url("/pict-mobile/Rectangle\ 21\ \(4\).svg");
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+  width: 320px;
+  height: 188px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.project6 {
+  background-image: url("/pict-mobile/Rectangle\ 21\ \(5\).svg");
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+  width: 320px;
+  height: 188px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.proyect-foot1 {
+  color: aliceblue;
+  background-color: #1a2236;
+  padding: 0 0 15px 0;
+}
+
+.proyect-foot1-p {
+  font-family: 'Poppins', sans-serif;
+  font-size: 20px;
+  font-weight: 300;
+  padding: 5px 12px;
+  margin: 0;
+}
+
+.proyect-foot1-ul {
+  display: flex;
+  padding: 0;
+  margin: 0;
+  justify-content: space-evenly;
+  list-style: none;
+}
+
+.proyect-foot1-li {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 300;
+  color: #1a2236;
+  background-color: #98dede;
+  height: 20px;
+  font-size: 10.3334px;
+  padding: 5px 10px 0 10px;
+  margin: 2px;
+}
+
+.proyect-foot1-button {
+  display: flex;
+  width: 178px;
+  justify-content: space-around;
+  align-items: center;
+  background-color: transparent;
+  color: white;
+  height: 44px;
+  border-color: aliceblue;
+  border: 1px solid white;
+  margin: 9px 0 0 10px;
+}
+
+.proyect-foot1-button:hover {
+  background-color: #fff;
+  color: #1a2236;
+  cursor: pointer;
+}
+
+.proyect-foot1-text {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  padding-left: 5px;
+}
+
+.proyect-foot1-img {
+  background-image: url(/pict-mobile/arrow.svg);
+  background-repeat: no-repeat;
+  background-size: contain;
+  height: 18px;
+  width: 18px;
+  padding-right: 5px;
+}
+
+.about-section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.about-title {
+  font-family: 'Playfair Display', serif;
+  font-weight: 400;
+  font-size: 50px;
+  padding-left: 16px;
+}
+
+.about-p {
+  color: #1a2236;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 21px;
+  padding: 0 16px;
+}
+
+.get-mycv {
+  display: flex;
+  width: 288px;
+  height: 50px;
+  justify-content: space-around;
+  align-items: center;
+  background-color: #1a2236;
+  color: #fff;
+}
+
+.get-mycv-h {
+  padding-left: 45px;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+}
+
+.get-mycv-icon {
+  background-image: url(/pict-mobile/icdownload.svg);
+  background-repeat: no-repeat;
+  background-size: contain;
+  height: 26px;
+  width: 26px;
+  margin-top: 5px;
+  padding-right: 65px;
+}
+
+.languages {
+  margin: 5px 0;
+  color: #fff;
+  width: 280px;
+  height: 280px;
+  background: #1c528a;
+  background-image: url(/pict-mobile/hash.svg);
+  background-repeat: no-repeat;
+  background-size: 102px 102px;
+  background-position: bottom right;
+}
+
+.frameworks {
+  margin: 5px 0;
+  color: #fff;
+  width: 280px;
+  height: 280px;
+  background: #e2505c;
+  background-image: url(/pict-mobile/Group\ 18.svg);
+  background-repeat: no-repeat;
+  background-size: 102px 102px;
+  background-position: bottom right;
+}
+
+.skills {
+  background: #febf52;
+  margin: 5px 0;
+  color: #fff;
+  width: 280px;
+  height: 280px;
+  background-image: url(/pict-mobile/ic_skills.svg);
+  background-repeat: no-repeat;
+  background-size: 102px 102px;
+  background-position: bottom right;
+}
+
+.about-boxes {
+  margin: 30px 0 10px 50px;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 800;
+  font-size: 20px;
+}
+
+.languages-ul {
+  padding-left: 70px;
+  color: #fff;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 600;
+  font-size: 18px;
 }

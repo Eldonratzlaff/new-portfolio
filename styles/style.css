@@ -187,6 +187,7 @@ body {
 
 .proyect-foot1-ul {
   display: flex;
+  /* float: left; */
   padding: 0;
   margin: 0;
   justify-content: space-evenly;
@@ -194,6 +195,7 @@ body {
 }
 
 .proyect-foot1-li {
+  float: left;
   font-family: 'Poppins', sans-serif;
   font-weight: 300;
   color: #1a2236;
@@ -345,4 +347,81 @@ body {
   font-family: 'Poppins', sans-serif;
   font-weight: 600;
   font-size: 18px;
+}
+
+.foot-section{
+background: #F9F9FA;
+}
+.foot-section-h{
+  font-family: 'Playfair Display';
+font-weight: 400;
+font-size: 50px;
+}
+.foot-section-p{
+  font-family: 'Poppins';
+font-weight: 400;
+font-size:14px;
+}
+.start-coll-btn{
+  background-color: #1a2236;
+  color: #fff;
+font-family: 'Poppins';
+  font-weight: 500;
+  font-size: 16px;}
+
+  .foot-botom{
+    background-color: #1a2236;
+  }
+.get-resume-btn{
+  background-color: #1a2236;
+  font-family: 'Poppins';
+font-weight: 500;
+font-size: 16px;
+color: #92DCDC;
+}
+
+.social-media{
+  display: flex ;
+  justify-content: space-evenly;
+}
+.stak{
+  background-image: url(/pict-mobile/ic_stackoverflow.svg); background-repeat: no-repeat;
+  background-size: contain;
+  height: 26px;
+  width: 26px;
+}
+ .git{ background-image: url(/pict-mobile/Vector\ \(4\).svg);
+  background-repeat: no-repeat;
+  background-size: contain;
+  height: 26px;
+  width: 26px;
+}
+
+.twitt{background-image: url(/pict-mobile/Vector.svg);
+  background-repeat: no-repeat;
+  background-size: contain;
+  height: 26px;
+  width: 26px;
+
+}
+.link{
+  background-image: url(/pict-mobile/Vector\ \(1\).svg);
+  background-repeat: no-repeat;
+  background-size: contain;
+  height: 26px;
+  width: 26px;
+}
+.medium{
+  background-image: url(/pict-mobile/Vector\ \(2\).svg);
+  background-repeat: no-repeat;
+  background-size: contain;
+  height: 26px;
+  width: 26px;
+}
+.angelist{
+  background-image: url(/pict-mobile/Vector\ \(3\).svg);
+  background-repeat: no-repeat;
+  background-size: contain;
+  height: 26px;
+  width: 26px;
 }

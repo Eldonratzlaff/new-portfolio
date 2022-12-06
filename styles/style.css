@@ -186,6 +186,7 @@ body {
 
 .proyect-foot1-ul {
   display: flex;
+
   /* float: left; */
   padding: 0;
   margin: 0;
@@ -353,20 +354,23 @@ body {
   margin-left: 16px;
   margin-right: 16px;
 }
+
 .foot-section-h {
-  font-family: "Playfair Display";
+  font-family: "Playfair Display", serif;
   font-weight: 400;
   font-size: 50px;
 }
+
 .foot-section-p {
-  font-family: "Poppins";
+  font-family: "Poppins", sans-serif;
   font-weight: 400;
   font-size: 14px;
 }
+
 .start-coll-btn {
   background-color: #1a2236;
   color: #fff;
-  font-family: "Poppins", serif;
+  font-family: "Poppins", sans-serif;
   font-weight: 500;
   font-size: 16px;
   height: 44px;
@@ -379,9 +383,10 @@ body {
 .foot-botom {
   background-color: #1a2236;
 }
+
 .get-resume-btn {
   background-color: #1a2236;
-  font-family: "Poppins";
+  font-family: "Poppins", sans-serif;
   font-weight: 500;
   font-size: 16px;
   color: #92dcdc;
@@ -391,6 +396,7 @@ body {
   display: flex;
   justify-content: space-evenly;
 }
+
 .stak {
   background-image: url(/pict-mobile/ic_stackoverflow.svg);
   background-repeat: no-repeat;
@@ -398,8 +404,9 @@ body {
   height: 26px;
   width: 26px;
 }
+
 .git {
-  background-image: url(/pict-mobile/Vector\\(4\).svg);
+  background-image: url(/pict-mobile/Vector\ \(4\) .svg);
   background-repeat: no-repeat;
   background-size: contain;
   height: 26px;
@@ -413,22 +420,25 @@ body {
   height: 26px;
   width: 26px;
 }
+
 .link {
-  background-image: url(/pict-mobile/Vector\\(1\).svg);
+  background-image: url(/pict-mobile/Vector\ \(1\) .svg);
   background-repeat: no-repeat;
   background-size: contain;
   height: 26px;
   width: 26px;
 }
+
 .medium {
-  background-image: url(/pict-mobile/Vector\\(2\).svg);
+  background-image: url(/pict-mobile/Vector\ \(2\) .svg);
   background-repeat: no-repeat;
   background-size: contain;
   height: 26px;
   width: 26px;
 }
+
 .angelist {
-  background-image: url(/pict-mobile/Vector\\(3\).svg);
+  background-image: url(/pict-mobile/Vector\ \(3\) .svg);
   background-repeat: no-repeat;
   background-size: contain;
   height: 26px;

@@ -219,14 +219,13 @@
 
 
 
-    <form action="">
-        <div>Your name
-            <input type="text" name="your name" id="">
-        </div>
-        <div>your email
-            <input type="email" name="your email" id="">
-        </div>
-        <textarea name="form-coment" id="" cols="30" rows="10"></textarea>
+    <form action="" method="post">
+
+            <input type="text" name="your name" placeholder="Your Name" maxwidth='30' required id="">
+        
+            <input type="email" placeholder="Your email"  name="your email" id="" required >
+    
+        <textarea name="form-coment" id="" placeholder="Enter your message here" maxwidth='500' required cols="30" rows="10"></textarea>
         <button class="start-coll-btn">Start collaboration</button>
     </form>
 

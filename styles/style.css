@@ -1,8 +1,7 @@
-
-@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,600;1,500&family=Poppins&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,600;1,500&family=Poppins&display=swap");
 
 body {
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
   margin: 0;
   padding: 0;
   border: 0;
@@ -35,14 +34,14 @@ body {
 
 .top-name {
   color: #1a2236;
-  font-family: 'Playfair Display', serif;
+  font-family: "Playfair Display", serif;
   padding-left: 16px;
   font-size: 50px;
   font-weight: 400;
 }
 
 .top-coment {
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
   color: #1a2236;
   padding: 0 16px 0 16px;
   font-size: 14px;
@@ -81,7 +80,7 @@ body {
 }
 
 .projects {
-  font-family: 'Playfair Display', serif;
+  font-family: "Playfair Display", serif;
   margin-left: 16px;
   font-size: 50px;
   font-weight: 400;
@@ -178,7 +177,7 @@ body {
 }
 
 .proyect-foot1-p {
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
   font-size: 20px;
   font-weight: 300;
   padding: 5px 12px;
@@ -196,7 +195,7 @@ body {
 
 .proyect-foot1-li {
   float: left;
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
   font-weight: 300;
   color: #1a2236;
   background-color: #98dede;
@@ -226,7 +225,7 @@ body {
 }
 
 .proyect-foot1-text {
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
   font-weight: 500;
   font-size: 16px;
   padding-left: 5px;
@@ -249,7 +248,7 @@ body {
 }
 
 .about-title {
-  font-family: 'Playfair Display', serif;
+  font-family: "Playfair Display", serif;
   font-weight: 400;
   font-size: 50px;
   padding-left: 16px;
@@ -257,7 +256,7 @@ body {
 
 .about-p {
   color: #1a2236;
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
   font-weight: 400;
   font-size: 14px;
   line-height: 21px;
@@ -277,7 +276,7 @@ body {
 
 .get-mycv-h {
   padding-left: 45px;
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
   font-weight: 500;
   font-size: 16px;
 }
@@ -336,7 +335,7 @@ body {
 
 .about-boxes {
   margin: 30px 0 10px 50px;
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
   font-weight: 800;
   font-size: 20px;
 }
@@ -344,90 +343,92 @@ body {
 .languages-ul {
   padding-left: 70px;
   color: #fff;
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
   font-weight: 600;
   font-size: 18px;
 }
 
-.foot-section{
-  background: #F9F9FA;
+.foot-section {
+  background: #f9f9fa;
   margin-left: 16px;
   margin-right: 16px;
 }
-.foot-section-h{
-  font-family: 'Playfair Display';
-font-weight: 400;
-font-size: 50px;
+.foot-section-h {
+  font-family: "Playfair Display";
+  font-weight: 400;
+  font-size: 50px;
 }
-.foot-section-p{
-  font-family: 'Poppins';
-font-weight: 400;
-font-size:14px;
+.foot-section-p {
+  font-family: "Poppins";
+  font-weight: 400;
+  font-size: 14px;
 }
-.start-coll-btn{
+.start-coll-btn {
   background-color: #1a2236;
   color: #fff;
-  font-family: 'Poppins', serif;
+  font-family: "Poppins", serif;
   font-weight: 500;
   font-size: 16px;
   height: 44px;
   width: 288px;
   align-self: center;
   margin-top: 20px;
-  margin-bottom: 64px; 
+  margin-bottom: 64px;
 }
 
-  .foot-botom{
-    background-color: #1a2236;
-  }
-.get-resume-btn{
+.foot-botom {
   background-color: #1a2236;
-  font-family: 'Poppins';
-font-weight: 500;
-font-size: 16px;
-color: #92DCDC;
+}
+.get-resume-btn {
+  background-color: #1a2236;
+  font-family: "Poppins";
+  font-weight: 500;
+  font-size: 16px;
+  color: #92dcdc;
 }
 
-.social-media{
-  display: flex ;
+.social-media {
+  display: flex;
   justify-content: space-evenly;
 }
-.stak{
-  background-image: url(/pict-mobile/ic_stackoverflow.svg); background-repeat: no-repeat;
+.stak {
+  background-image: url(/pict-mobile/ic_stackoverflow.svg);
+  background-repeat: no-repeat;
   background-size: contain;
   height: 26px;
   width: 26px;
 }
- .git{ background-image: url(/pict-mobile/Vector\ \(4\).svg);
+.git {
+  background-image: url(/pict-mobile/Vector\\(4\).svg);
   background-repeat: no-repeat;
   background-size: contain;
   height: 26px;
   width: 26px;
 }
 
-.twitt{background-image: url(/pict-mobile/Vector.svg);
-  background-repeat: no-repeat;
-  background-size: contain;
-  height: 26px;
-  width: 26px;
-
-}
-.link{
-  background-image: url(/pict-mobile/Vector\ \(1\).svg);
+.twitt {
+  background-image: url(/pict-mobile/Vector.svg);
   background-repeat: no-repeat;
   background-size: contain;
   height: 26px;
   width: 26px;
 }
-.medium{
-  background-image: url(/pict-mobile/Vector\ \(2\).svg);
+.link {
+  background-image: url(/pict-mobile/Vector\\(1\).svg);
   background-repeat: no-repeat;
   background-size: contain;
   height: 26px;
   width: 26px;
 }
-.angelist{
-  background-image: url(/pict-mobile/Vector\ \(3\).svg);
+.medium {
+  background-image: url(/pict-mobile/Vector\\(2\).svg);
+  background-repeat: no-repeat;
+  background-size: contain;
+  height: 26px;
+  width: 26px;
+}
+.angelist {
+  background-image: url(/pict-mobile/Vector\\(3\).svg);
   background-repeat: no-repeat;
   background-size: contain;
   height: 26px;
@@ -443,3 +444,25 @@ color: #92DCDC;
   align-self: flex-end;
 }
 
+input {
+  width: 540px;
+  height: 52px;
+  left: 16px;
+  align-self: center;
+  margin-bottom: 10px;
+}
+
+input::placeholder {
+  padding-left: 10px;
+}
+
+textarea {
+  width: 540px;
+  height: 52px;
+  left: 16px;
+  align-self: center;
+}
+
+textarea::placeholder {
+  padding-left: 10px;
+}

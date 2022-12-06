@@ -350,7 +350,9 @@ body {
 }
 
 .foot-section{
-background: #F9F9FA;
+  background: #F9F9FA;
+  margin-left: 16px;
+  margin-right: 16px;
 }
 .foot-section-h{
   font-family: 'Playfair Display';
@@ -365,9 +367,15 @@ font-size:14px;
 .start-coll-btn{
   background-color: #1a2236;
   color: #fff;
-font-family: 'Poppins';
+  font-family: 'Poppins', serif;
   font-weight: 500;
-  font-size: 16px;}
+  font-size: 16px;
+  height: 44px;
+  width: 288px;
+  align-self: center;
+  margin-top: 20px;
+  margin-bottom: 64px; 
+}
 
   .foot-botom{
     background-color: #1a2236;
@@ -425,3 +433,13 @@ color: #92DCDC;
   height: 26px;
   width: 26px;
 }
+
+.foot-section form {
+  display: flex;
+  flex-direction: column;
+}
+
+.form-coment {
+  align-self: flex-end;
+}
+

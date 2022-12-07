@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
     <link rel="stylesheet" href="/styles/style.css">
+    <link rel="stylesheet" href="/styles/stylequery.css">
     <link rel = "icon" href =  "/pict-mobile/bxs-radiation.svg" type = "image/x-icon">
     <title>Portfolio</title>
 </head>
@@ -219,24 +220,30 @@
 
 
 
-    <form action="" method="post">
+    <form action="https://formspree.io/f/xaykaovn" method="post">
+        <div class="your-name-container" >
+            <div>Your name</div>
+            <input type="text" name="your name" placeholder="Anastasiia" maxlength='30' required id="">
+        </div>
 
-            <input type="text" name="your name" placeholder="Your Name" maxwidth='30' required id="">
+
+        <div class="email-container">
+            <div>Your email</div>
+            <input type="email" placeholder="|"  name="your email" id="" required >
+        </div>    
+
+         <textarea class="form-coment" name="form-coment" id="" placeholder="Enter your message here" maxlength='500' required cols="30" rows="10"></textarea>
         
-            <input type="email" placeholder="Your email"  name="your email" id="" required >
-    
-            <textarea name="form-coment" id="" placeholder="Enter your message here" maxwidth='500' required cols="30" rows="10"></textarea>
-        
-        <button class="start-coll-btn">Start collaboration</button>
+        <button class="start-coll-btn" type="submit" >Start collaboration</button>
 
     </form>
 
-
-
-
     
     <div class="foot-botom">
-        <button class="get-resume-btn">Get my Resume</button>
+        <button class="get-resume-btn">
+            <h2>Get my Resume</h2> 
+            <div></div>
+        </button>
         <div class="social-media">
             <div class="stak"></div>
             <div class="git"></div>

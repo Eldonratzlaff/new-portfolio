@@ -367,6 +367,63 @@ body {
   font-size: 14px;
 }
 
+.your-name-container,
+.email-container {
+  /* display: block; */
+  border: 1px solid black;
+  border-radius: 4px;
+  background-color: #fff;
+  width: 288px;
+  height: 52px;
+  left: 16px;
+  margin-bottom: 10px;
+  align-self: center;
+}
+
+.your-name-container div,
+.email-container div {
+  margin: 0 16px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-size: 10px;
+}
+
+input {
+  border: none;
+}
+
+.foot-section form {
+  display: flex;
+  flex-direction: column;
+}
+
+.form-coment {
+  border: 1px solid #dfdfe0;
+  border-radius: 4px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+}
+
+input::placeholder {
+  padding-left: 16px;
+  color: black;
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+}
+
+textarea {
+  width: 288px;
+  height: 112px;
+  left: 16px;
+  align-self: center;
+}
+
+textarea::placeholder {
+  padding: 15px 16px;
+}
+
 .start-coll-btn {
   background-color: #1a2236;
   color: #fff;
@@ -382,97 +439,82 @@ body {
 
 .foot-botom {
   background-color: #1a2236;
+  height: 150px;
 }
 
 .get-resume-btn {
+  display: flex;
+  justify-content: space-between;
   background-color: #1a2236;
   font-family: "Poppins", sans-serif;
-  font-weight: 500;
+  padding: 20px 0 0 16px;
+  border: none;
+}
+
+.get-resume-btn h2 {
   font-size: 16px;
+  font-weight: 500;
   color: #92dcdc;
+}
+
+.get-resume-btn div {
+  background-image: url(/pict-mobile/box-arrow-up-right_1.svg);
+  background-repeat: no-repeat;
+  height: 20px;
+  width: 20px;
+  margin: 14px 0 0 20px;
 }
 
 .social-media {
   display: flex;
   justify-content: space-evenly;
+  padding: 17px 0 40px 0;
 }
 
 .stak {
   background-image: url(/pict-mobile/ic_stackoverflow.svg);
   background-repeat: no-repeat;
   background-size: contain;
-  height: 26px;
-  width: 26px;
+  height: 24px;
+  width: 23px;
 }
 
 .git {
-  background-image: url(/pict-mobile/Vector\ \(4\) .svg);
+  background-image: url(/pict-mobile/github.svg);
   background-repeat: no-repeat;
   background-size: contain;
-  height: 26px;
-  width: 26px;
+  height: 24px;
+  width: 23px;
 }
 
 .twitt {
-  background-image: url(/pict-mobile/Vector.svg);
+  background-image: url(/pict-mobile/twitter.svg);
   background-repeat: no-repeat;
   background-size: contain;
-  height: 26px;
-  width: 26px;
+  height: 24px;
+  width: 23px;
 }
 
 .link {
-  background-image: url(/pict-mobile/Vector\ \(1\) .svg);
+  background-image: url(/pict-mobile/linkin.svg);
   background-repeat: no-repeat;
   background-size: contain;
-  height: 26px;
-  width: 26px;
+  height: 24px;
+  width: 23px;
 }
 
 .medium {
-  background-image: url(/pict-mobile/Vector\ \(2\) .svg);
+  background-image: url(/pict-mobile/medium.svg);
   background-repeat: no-repeat;
   background-size: contain;
-  height: 26px;
-  width: 26px;
+  height: 24px;
+  width: 23px;
 }
 
 .angelist {
-  background-image: url(/pict-mobile/Vector\ \(3\) .svg);
+  background-image: url(/pict-mobile/angelist.svg);
   background-repeat: no-repeat;
   background-size: contain;
-  height: 26px;
-  width: 26px;
-}
-
-.foot-section form {
-  display: flex;
-  flex-direction: column;
-}
-
-.form-coment {
-  align-self: flex-end;
-}
-
-input {
-  width: 540px;
-  height: 52px;
-  left: 16px;
-  align-self: center;
-  margin-bottom: 10px;
-}
-
-input::placeholder {
-  padding-left: 10px;
-}
-
-textarea {
-  width: 540px;
-  height: 52px;
-  left: 16px;
-  align-self: center;
-}
-
-textarea::placeholder {
-  padding-left: 10px;
+  height: 24px;
+  width: 23px;
 }

@@ -93,8 +93,9 @@ body {
 .midle-section {
   display: grid;
   grid-template-columns: 1fr;
-  grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
+  grid-template-rows: .4fr 1fr 1fr 1fr 1fr 1fr 1fr;
   grid-template-areas:
+  "projects"
     "project1"
     "project2"
     "project3"
@@ -404,8 +405,7 @@ input {
   display: flex;
   flex-direction: column;
 
-  /* justify-content: space-between; */
-}
+ }
 
 .texarea-message {
   display: none;

@@ -22,42 +22,56 @@
     flex-direction: row;
     justify-content: space-between;
 
-    /* height: 877px; */
+
   }
 
   .top-text {
     max-width: 484px;
     background-image: url(/pic-desktop/image_dots.svg);
 
-    /* padding: 0px; */
     background-repeat: no-repeat;
     background-size: cover;
     background-size: 175px 175px;
     background-position: right bottom;
   }
-
+  .top-name{ 
+    font-size: 110px;
+    width: 484px;
+  }
+.top-buton{
+    width:254px ;
+    height: 70px;
+}
   .ornamen-first-botom {
     background-image: url("/pic-desktop/Thur.svg");
     background-repeat: no-repeat;
     background-size: cover;
-    background-position: center;
+    background-position: left;
     width: 702px;
     height: 877px;
 
-    /* margin-left: auto; */
-
-    /* margin-right: auto; */
     margin: 0;
   }
 
   .projects {
     transform: rotate(-90deg);
-
-    /* float: left; */
     font-size: 110px;
   }
 
+  .midle-section {
+    display: grid;
+    grid-template-columns: .3fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr ;
+    grid-template-areas:
+    "projects project1"
+      "project2 project3"
+      "project4 project5"
+      "project6";
+  }
+  
+
   .about-section {
+    margin: 90px 0px;
     display: flex;
     flex-direction: row;
     justify-content: center;

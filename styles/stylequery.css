@@ -11,6 +11,11 @@
   .header-desktop {
     display: flex;
     justify-content: center;
+    transition: all 0,5s ease-out;
+  }
+
+  .header-desktop div:hover {
+    background-color: #7d7c84;
   }
 
   .header-desktop div {

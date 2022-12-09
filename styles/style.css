@@ -15,6 +15,17 @@ body {
 
 .ornament-top {
   display: inline;
+  animation: rotate 2s infinite;
+}
+
+@keyframes rotate {
+  0% {
+    transform: rotate(45deg);
+  }
+
+  100% {
+    transform: rotate(-45deg);
+  }
 }
 
 .menu1 {
@@ -93,9 +104,9 @@ body {
 .midle-section {
   display: grid;
   grid-template-columns: 1fr;
-  grid-template-rows: .4fr 1fr 1fr 1fr 1fr 1fr 1fr;
+  grid-template-rows: 0.4fr 1fr 1fr 1fr 1fr 1fr 1fr;
   grid-template-areas:
-  "projects"
+    "projects"
     "project1"
     "project2"
     "project3"
@@ -404,8 +415,7 @@ input {
 .name-email-divs {
   display: flex;
   flex-direction: column;
-
- }
+}
 
 .texarea-message {
   display: none;

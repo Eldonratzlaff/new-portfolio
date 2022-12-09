@@ -11,37 +11,44 @@
   .header-desktop {
     display: flex;
     justify-content: center;
+    transition: all 0, 5s ease-out;
   }
+
+
 
   .header-desktop div {
     padding: 20px 20px 20px 20px;
+  }
+
+  .header-desktop div:hover {
+    background-color: #7d7c84;
   }
 
   .headline {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-
-
   }
 
   .top-text {
     max-width: 484px;
     background-image: url(/pic-desktop/image_dots.svg);
-
     background-repeat: no-repeat;
     background-size: cover;
     background-size: 175px 175px;
     background-position: right bottom;
   }
-  .top-name{ 
+
+  .top-name {
     font-size: 110px;
     width: 484px;
   }
-.top-buton{
-    width:254px ;
+
+  .top-buton {
+    width: 254px;
     height: 70px;
-}
+  }
+
   .ornamen-first-botom {
     background-image: url("/pic-desktop/Thur.svg");
     background-repeat: no-repeat;
@@ -49,7 +56,6 @@
     background-position: left;
     width: 702px;
     height: 877px;
-
     margin: 0;
   }
 
@@ -60,18 +66,17 @@
 
   .midle-section {
     display: grid;
-    grid-template-columns: .3fr 1fr 1fr 1fr;
-    grid-template-rows: 1fr 1fr 1fr 1fr ;
+    grid-template-columns: 0.3fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
     grid-template-areas:
-    "projects project1"
+      "projects project1"
       "project2 project3"
       "project4 project5"
       "project6";
   }
-  
 
   .about-section {
-    margin: 90px 0px;
+    margin: 90px 0;
     display: flex;
     flex-direction: row;
     justify-content: center;

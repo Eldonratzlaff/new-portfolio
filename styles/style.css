@@ -15,12 +15,27 @@ body {
 
 .ornament-top {
   display: inline;
+  animation: rotate 2s infinite;
+}
+
+@keyframes rotate {
+  0% {
+    transform: rotate(45deg);
+  }
+
+  100% {
+    transform: rotate(-45deg);
+  }
 }
 
 .menu1 {
   display: inline;
   padding: 1em 1em;
   float: right;
+}
+
+.header-desktop {
+  display: none;
 }
 
 .headline {
@@ -89,8 +104,9 @@ body {
 .midle-section {
   display: grid;
   grid-template-columns: 1fr;
-  grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
+  grid-template-rows: 0.4fr 1fr 1fr 1fr 1fr 1fr 1fr;
   grid-template-areas:
+    "projects"
     "project1"
     "project2"
     "project3"
@@ -369,7 +385,6 @@ body {
 
 .your-name-container,
 .email-container {
-  /* display: block; */
   border: 1px solid black;
   border-radius: 4px;
   background-color: #fff;
@@ -395,6 +410,15 @@ input {
 .foot-section form {
   display: flex;
   flex-direction: column;
+}
+
+.name-email-divs {
+  display: flex;
+  flex-direction: column;
+}
+
+.texarea-message {
+  display: none;
 }
 
 .form-coment {

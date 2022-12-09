@@ -373,7 +373,6 @@ body {
 
 .your-name-container,
 .email-container {
-  /* display: block; */
   border: 1px solid black;
   border-radius: 4px;
   background-color: #fff;
@@ -399,6 +398,17 @@ input {
 .foot-section form {
   display: flex;
   flex-direction: column;
+}
+
+.name-email-divs {
+  display: flex;
+  flex-direction: column;
+
+  /* justify-content: space-between; */
+}
+
+.texarea-message {
+  display: none;
 }
 
 .form-coment {

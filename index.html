@@ -167,15 +167,16 @@
 
 <section class="about-section">
     <div>
-        <h2 class="about-title">About
-        </h2>
-        <p class="about-p">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ea eiusmod</p>
+        <div>
+            <h2 class="about-title">About</h2>
+            <p class="about-p">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ea eiusmod</p>
+        </div>
+        <button class="get-mycv">
+            <h3 class="get-mycv-h">Get my CV</h3>
+            <div class="get-mycv-icon"></div>
+        </button>
     </div>
-
-    <button class="get-mycv">
-        <h3 class="get-mycv-h">Get my CV</h3>
-        <div class="get-mycv-icon"></div>
-    </button>
+    
 
     <ul class="categories">
         <li class="languages">       
@@ -223,18 +224,25 @@
         <div class="ornament-top"><img src="/pict-mobile/image_geometry_1.svg" alt="">
         </div>
         <h2 class="foot-section-h">Get started</h2>
+        
         <p class="foot-section-p">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna.</p>
     
         <form action="https://formspree.io/f/xaykaovn" method="post">
-            <div class="your-name-container" >
-                <div>Your name</div>
-                <input type="text" name="your name" placeholder="Anastasiia" maxlength='30' required id="">
+          
+            <div class="name-email-divs">
+                <div class="your-name-container">                        
+                     <div>Your name</div>
+                    <input type="text" name="your name" placeholder="Anastasiia" maxlength='30' required id="">
+                </div>
+              
+            
+                <div class="email-container">
+                    <div>Your email</div>
+                    <input type="email" placeholder="|"  name="your email" id="" required >
+                </div>    
+    
             </div>
-        
-            <div class="email-container">
-                <div>Your email</div>
-                <input type="email" placeholder="|"  name="your email" id="" required >
-            </div>    
+            <div class="texarea-message">Message</div>
     
              <textarea class="form-coment" name="form-coment" id="" placeholder="Enter your message here" maxlength='500' required cols="30" rows="10"></textarea>
             
@@ -242,8 +250,6 @@
     
         </form>
     </div>
-   
-
     
     <div class="foot-botom">
         <button class="get-resume-btn">

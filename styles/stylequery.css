@@ -28,6 +28,7 @@
   .top-text {
     max-width: 484px;
     background-image: url(/pic-desktop/image_dots.svg);
+
     /* padding: 0px; */
     background-repeat: no-repeat;
     background-size: cover;
@@ -63,6 +64,22 @@
     align-items: center;
   }
 
+  .about-title {
+    font-size: 110px;
+    text-align: center;
+    padding-left: 16px;
+  }
+
+  .about-p {
+    color: #1a2236;
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 21px;
+    padding: 0 16px;
+    max-width: 446px;
+  }
+
   .categories {
     order: -1;
     padding-left: 0;
@@ -71,10 +88,10 @@
     grid-template-rows: 1fr 1fr;
     grid-template-areas:
       "languages frameworks"
-      "skills";
+      "skills categories-img";
   }
 
-  .categories div {
+  .categories-img {
     background-image: url(/pic-desktop/image_dots_with_teal.svg);
     background-repeat: no-repeat;
     background-size: cover;
@@ -97,10 +114,95 @@
     background-size: cover, cover;
     background-size: 264px 351px, 351px 351px;
     background-position: left top, right bottom;
-    height:950px ;
+    height: 950px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .foot-section-h {
+    font-size: 110px;
+    width: 548px;
+    text-align: center;
+  }
+
+  .foot-section-p {
+    margin: 0 0 30px 0;
+    font-size: 14px;
+    width: 548px;
+  }
+
+  .your-name-container div,
+  .email-container div {
+    margin: 0 0;
+    font-size: 12px;
+    color: #7d7c84;
+  }
+
+  .name-email-divs {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 542px;
+  }
+
+  .your-name-container {
+    background-color: transparent;
+    border: none;
+    width: 254px;
+    height: 78px;
+  }
+
+  .email-container {
+    background-color: transparent;
+    border: none;
+    width: 253px;
+    height: 78px;
+  }
+
+  input {
+    width: 254px;
+    height: 60px;
+    border: 1px solid #dfdfe0;
+  }
+
+  .texarea-message {
+    margin-top: 40px;
+    display: block;
+    font-size: 12px;
+    color: #7d7c84;
+  }
+
+  textarea {
+    width: 542px;
+    height: 140px;
+    align-self: center;
+  }
+
+  .start-coll-btn {
+    margin-top: 60px;
+    width: 254px;
+    height: 70px;
+  }
+
+  .foot-botom {
+    height: 120px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .get-resume-btn {
+    padding: 0 0 0 70px;
   }
 
   .social-media {
+    padding: 0 90px 0 0;
     display: flex;
+    justify-content: flex-end;
+  }
+
+  .social-media div {
+    margin: 0 15px 0 15px;
   }
 }

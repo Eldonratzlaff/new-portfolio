@@ -55,10 +55,10 @@
 
   .midle-section {
     /* height: 1600px; */
-    margin: 80px 0;
+    margin: 180px 0;
     display: grid;
     grid-template-columns: 56vw 9vw 357px;
-    grid-template-rows: 321px 87px 121px 320px 354px;
+    grid-template-rows: 421px 87px 121px 320px 354px;
     grid-template-areas:
       "projects works-cards1 works-cards1"
       "works-cards2 ornament3 picture6"
@@ -72,16 +72,18 @@
     width: 550px;
     height: 350px;
     transform: rotate(-90deg);
-    font-size: 110px;
-    margin: 0 0 0 -260px;
-    padding: 0 0 0 260px;
+    font-size: 90px;
+    padding: 0 0 0 68px;
+    margin: 0 0 0 -68px;
   }
 
   .project1 {
-    margin: 0;
-    width: 50vw;
-    height: 330px;
+    width: 44vw;
+    height: 400px;
+    background-position: right bottom;
     background-size: cover;
+    padding: 0 0 0 250px;
+    margin: 0 0 0 -250px;
   }
 
   .project2 {
@@ -102,10 +104,6 @@
     background-size: cover;
   }
 
-  .proyect-foot1 {
-    display: none;
-  }
-
   .proyect-foot2 {
     display: none;
   }
@@ -118,9 +116,9 @@
     display: none;
   }
 
-  .proyect-foot5 {
+  /* .proyect-foot5 {
     display: none;
-  }
+  } */
 
   .proyect-foot6 {
     display: none;
@@ -157,6 +155,7 @@
 
   .ornament3 {
     grid-area: ornament3;
+    z-index: -1;
     display: block;
     background-image: url(/pic-desktop/image-geometry_2.svg);
     background-repeat: no-repeat;
@@ -169,6 +168,7 @@
 
   .ornament4 {
     grid-area: ornament4;
+    z-index: -1;
     display: block;
     background-image: url(/pic-desktop/Group\ 83.svg);
     background-repeat: no-repeat;
@@ -181,6 +181,12 @@
 
   .works-cards1 {
     grid-area: works-cards1;
+  }
+
+  .proyect-foot1 {
+    width: 44vw;
+    padding: 0 0 0 250px;
+    margin: 0 0 0 -250px;
   }
 
   .works-cards1 .proyect-foot1 {
@@ -226,6 +232,10 @@
 
   .works-cards4:hover .proyect-foot4 {
     display: block;
+  }
+
+  .proyect-foot5 {
+    order: -1;
   }
 
   .works-cards5 {

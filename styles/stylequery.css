@@ -14,14 +14,8 @@
     transition: all 0, 5s ease-out;
   }
 
-
-
   .header-desktop div {
     padding: 20px 20px 20px 20px;
-  }
-
-  .header-desktop div:hover {
-    background-color: #7d7c84;
   }
 
   .headline {
@@ -59,20 +53,203 @@
     margin: 0;
   }
 
-  .projects {
-    transform: rotate(-90deg);
-    font-size: 110px;
+  .midle-section {
+    /* height: 1600px; */
+    margin: 80px 0;
+    display: grid;
+    grid-template-columns: 56vw 9vw 357px;
+    grid-template-rows: 321px 87px 121px 320px 354px;
+    grid-template-areas:
+      "projects works-cards1 works-cards1"
+      "works-cards2 ornament3 picture6"
+      "works-cards2 ornament4 works-cards6"
+      "works-cards3 ornament2 works-cards5"
+      "ornament1 works-cards4 works-cards4";
   }
 
-  .midle-section {
-    display: grid;
-    grid-template-columns: 0.3fr 1fr 1fr 1fr;
-    grid-template-rows: 1fr 1fr 1fr 1fr;
-    grid-template-areas:
-      "projects project1"
-      "project2 project3"
-      "project4 project5"
-      "project6";
+  .projects {
+    grid-area: projects;
+    width: 550px;
+    height: 350px;
+    transform: rotate(-90deg);
+    font-size: 110px;
+    margin: 0 0 0 -260px;
+    padding: 0 0 0 260px;
+  }
+
+  .project1 {
+    margin: 0;
+    width: 50vw;
+    height: 330px;
+    background-size: cover;
+  }
+
+  .project2 {
+    margin-left: 0;
+  }
+
+  .project3 {
+    margin-right: 0;
+    width: 48vw;
+    height: 320px;
+    background-size: cover;
+  }
+
+  .project4 {
+    margin-left: 0;
+    width: 30vw;
+    height: 300px;
+    background-size: cover;
+  }
+
+  .proyect-foot1 {
+    display: none;
+  }
+
+  .proyect-foot2 {
+    display: none;
+  }
+
+  .proyect-foot3 {
+    display: none;
+  }
+
+  .proyect-foot4 {
+    display: none;
+  }
+
+  .proyect-foot5 {
+    display: none;
+  }
+
+  .proyect-foot6 {
+    display: none;
+  }
+
+  .picture6 {
+    grid-area: picture6;
+
+    /* display: block; */
+    background-image: url(/pict-mobile/Rectangle\ 21\ \(5\) .svg);
+    background-repeat: no-repeat;
+    background-size: contain;
+  }
+
+  .ornament1 {
+    grid-area: ornament1;
+    display: block;
+    background-image: url(/pic-desktop/image-geometry_5.svg), url(/pic-desktop/image-geometry_4.svg);
+    background-repeat: no-repeat no-repeat;
+    background-size: contain contain;
+    background-size: 124px 124px 87px 87px;
+    background-position: left top, right top;
+  }
+
+  .ornament2 {
+    grid-area: ornament2;
+    display: block;
+    background-image: url(/pic-desktop/Shape.svg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-size: 130px 130px;
+    background-position: left bottom;
+  }
+
+  .ornament3 {
+    grid-area: ornament3;
+    display: block;
+    background-image: url(/pic-desktop/image-geometry_2.svg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-size: 430px 280px;
+    background-position: right bottom;
+    padding: 200px 0 120px 300px;
+    margin: -200px 0 -120px -300px;
+  }
+
+  .ornament4 {
+    grid-area: ornament4;
+    display: block;
+    background-image: url(/pic-desktop/Group\ 83.svg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-size: 350px 175px;
+    background-position: left top;
+    padding: 0 350px 200px 0;
+    margin: 240px -350px -200px 180px;
+  }
+
+  .works-cards1 {
+    grid-area: works-cards1;
+  }
+
+  .works-cards1 .proyect-foot1 {
+    display: none;
+  }
+
+  .works-cards1:hover .proyect-foot1 {
+    display: block;
+  }
+
+  .works-cards2 {
+    grid-area: works-cards2;
+  }
+
+  .works-cards2 .proyect-foot2 {
+    display: none;
+  }
+
+  .works-cards2:hover .proyect-foot2 {
+    display: block;
+    width: 400px;
+  }
+
+  .works-cards3 {
+    grid-area: works-cards3;
+  }
+
+  .works-cards3 .proyect-foot3 {
+    display: none;
+  }
+
+  .works-cards3:hover .proyect-foot3 {
+    display: block;
+  }
+
+  .works-cards4 {
+    grid-area: works-cards4;
+  }
+
+  .works-cards4 .proyect-foot4 {
+    display: none;
+  }
+
+  .works-cards4:hover .proyect-foot4 {
+    display: block;
+  }
+
+  .works-cards5 {
+    grid-area: works-cards5;
+  }
+
+  .works-cards5 .proyect-foot5 {
+    display: none;
+  }
+
+  .works-cards5:hover .proyect-foot5 {
+    display: block;
+  }
+
+  .works-cards6 {
+    grid-area: works-cards6;
+  }
+
+  .works-cards6 .proyect-foot6 {
+    display: none;
+  }
+
+  .works-cards6:hover .proyect-foot6 {
+    display: block;
   }
 
   .about-section {
@@ -223,5 +400,9 @@
 
   .social-media div {
     margin: 0 15px 0 15px;
+  }
+
+  .header-desktop div:hover {
+    background-color: #7d7c84;
   }
 }

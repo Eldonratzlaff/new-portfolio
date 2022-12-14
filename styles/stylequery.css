@@ -39,22 +39,26 @@
   }
 
   .top-buton {
+    
     width: 254px;
     height: 70px;
   }
 
   .ornamen-first-botom {
+    z-index: -1;
     background-image: url("/pic-desktop/Thur.svg");
     background-repeat: no-repeat;
     background-size: cover;
-    background-position: left;
-    width: 702px;
-    height: 877px;
+    background-position: right top;
+    /* width: 702px; */
+    /* height: 877px; */
+width: 41vw;
+height: 100vh;
+
     margin: 0;
   }
 
   .midle-section {
-    /* height: 1600px; */
     margin: 180px 0;
     display: grid;
     grid-template-columns: 56vw 9vw 357px;
@@ -72,13 +76,13 @@
     width: 550px;
     height: 350px;
     transform: rotate(-90deg);
-    font-size: 90px;
-    padding: 0 0 0 68px;
-    margin: 0 0 0 -68px;
+    font-size: 80px;
+    padding: 0 0 100px 128px;
+    margin: 0 0 -100px -128px;
   }
 
   .project1 {
-    width: 44vw;
+    width: 40vw;
     height: 400px;
     background-position: right bottom;
     background-size: cover;
@@ -116,9 +120,6 @@
     display: none;
   }
 
-  /* .proyect-foot5 {
-    display: none;
-  } */
 
   .proyect-foot6 {
     display: none;
@@ -173,7 +174,7 @@
     background-image: url(/pic-desktop/Group\ 83.svg);
     background-repeat: no-repeat;
     background-size: contain;
-    background-size: 350px 175px;
+    background-size: 19vw 8vw;
     background-position: left top;
     padding: 0 350px 200px 0;
     margin: 240px -350px -200px 180px;

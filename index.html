@@ -4,14 +4,14 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-    <link rel="stylesheet" href="/styles/style.css">
-    <link rel="stylesheet" href="/styles/stylequery.css">
+    <link rel="stylesheet" href="./styles/style.css">
+    <link rel="stylesheet" href="./styles/stylequery.css">
+    <!-- <link rel="stylesheet" href="/styles/style.css"> -->
+    <!-- <link rel="stylesheet" href="/styles/stylequery.css"> -->
     <link rel = "icon" href =  "/pict-mobile/bxs-radiation.svg" type = "image/x-icon">
     <title>Portfolio</title>
+
 </head>
-
-
 
 <body>
     <header>
@@ -207,34 +207,26 @@
     </ul>
 </section>
 
-
-
-
-
 <section class="foot-section">
     <div class="ornament-top"><img src="/pict-mobile/image_geometry_1.svg" alt=""></div>
 <h2 class="foot-section-h">Get started</h2>
 <p class="foot-section-p">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna.</p>
 
 
-
-
-
     <form action="https://formspree.io/f/xaykaovn" method="post">
 		<div class="your-name-container" >
             <div>Your name</div>
-            <input type="text" name="" placeholder="Anastasiia" maxlength='30'  id="">
+            <input type="text" name="Your name" placeholder="Anastasiia" maxlength='30'  id="your-name" required>
         </div>
-
 
         <div class="email-container">
             <div>Your email</div>
-            <input type="email" placeholder="|"  name="your email" id=""  >
+            <input type="email" placeholder="|"  name="your email" id="email"  required >
         </div>    
 
-         <textarea class="form-coment" name="form-coment" id="" placeholder="Enter your message here" ></textarea>
+         <textarea class="form-coment" name="form-coment" id="" placeholder="Enter your message here" maxlength='500' required cols="30" rows="10" required ></textarea>
        
-        <button class="start-coll-btn"  >Start collaboration</button>
+        <button class="start-coll-btn" type="submit" >Start collaboration</button>
 
     </form>
 

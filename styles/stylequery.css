@@ -54,8 +54,8 @@
   }
 
   .midle-section {
-    /* height: 1600px; */
-    margin: 180px 0;
+    margin: 130px 0;
+    padding: 50px 0 0 0;
     display: grid;
     grid-template-columns: 56vw 9vw 357px;
     grid-template-rows: 421px 87px 121px 320px 354px;
@@ -392,7 +392,7 @@
   }
 
   .foot-botom {
-    height: 120px;
+    height: 123px;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -400,6 +400,11 @@
 
   .get-resume-btn {
     padding: 0 0 0 70px;
+  }
+
+  .get-resume-btn div {
+    background-image: url(/pic-desktop/ic-link_teal.svg);
+    background-size: contain;
   }
 
   .social-media {

@@ -98,7 +98,7 @@ body {
 .projects {
   font-family: "Playfair Display", serif;
   margin-left: 16px;
-  font-size: 50px;
+  font-size: 110px;
   font-weight: 400;
 }
 
@@ -492,8 +492,8 @@ textarea::placeholder {
 .get-resume-btn div {
   background-image: url(/pict-mobile/box-arrow-up-right_1.svg);
   background-repeat: no-repeat;
-  height: 20px;
-  width: 20px;
+  height: 21px;
+  width: 21px;
   margin: 14px 0 0 20px;
 }
 

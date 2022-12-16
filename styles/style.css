@@ -15,10 +15,11 @@ body {
 
 .ornament-top {
   display: inline;
-  animation: rotate 2s infinite;
+
+  /* animation: rotate 2s infinite; */
 }
 
-@keyframes rotate {
+/* @keyframes rotate {
   0% {
   transform: rotate(45deg);
   }
@@ -26,7 +27,7 @@ body {
   100% {
   transform: rotate(-45deg);
   }
-}
+} */
 
 .menu1 {
   display: inline;
@@ -97,7 +98,7 @@ body {
 .projects {
   font-family: "Playfair Display", serif;
   margin-left: 16px;
-  font-size: 50px;
+  font-size: 110px;
   font-weight: 400;
 }
 
@@ -105,14 +106,6 @@ body {
   display: grid;
   grid-template-columns: 1fr;
   grid-template-rows: 0.4fr 1fr 1fr 1fr 1fr 1fr 1fr;
-  grid-template-areas:
-    "projects"
-    "project1"
-    "project2"
-    "project3"
-    "project4"
-    "project5"
-    "project6";
 }
 
 .works-cards {
@@ -186,7 +179,12 @@ body {
   margin-right: auto;
 }
 
-.proyect-foot1 {
+.proyect-foot1,
+.proyect-foot2,
+.proyect-foot3,
+.proyect-foot4,
+.proyect-foot5,
+.proyect-foot6 {
   color: aliceblue;
   background-color: #1a2236;
   padding: 0 0 15px 0;
@@ -202,8 +200,6 @@ body {
 
 .proyect-foot1-ul {
   display: flex;
-
-  /* float: left; */
   padding: 0;
   margin: 0;
   justify-content: space-evenly;
@@ -255,6 +251,18 @@ body {
   height: 18px;
   width: 18px;
   padding-right: 5px;
+}
+
+.picture1,
+.picture2,
+.picture3,
+.picture4,
+.picture5,
+.picture6,
+.ornament1,
+.ornament2,
+.ornament3 {
+  display: none;
 }
 
 .about-section {
@@ -484,8 +492,8 @@ textarea::placeholder {
 .get-resume-btn div {
   background-image: url(/pict-mobile/box-arrow-up-right_1.svg);
   background-repeat: no-repeat;
-  height: 20px;
-  width: 20px;
+  height: 21px;
+  width: 21px;
   margin: 14px 0 0 20px;
 }
 

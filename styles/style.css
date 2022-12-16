@@ -105,15 +105,6 @@ body {
   display: grid;
   grid-template-columns: 1fr;
   grid-template-rows: 0.4fr 1fr 1fr 1fr 1fr 1fr 1fr;
-
-  /* grid-template-areas:
-    "projects"
-    "works-cards1"
-    "works-cards2"
-    "works-cards3"
-    "works-cards4"
-    "works-cards5"
-    "works-cards6"; */
 }
 
 .works-cards {

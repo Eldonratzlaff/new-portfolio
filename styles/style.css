@@ -459,8 +459,13 @@ textarea::placeholder {
   align-self: center;
   margin-top: 20px;
   margin-bottom: 64px;
+  transition: 1s;
 }
 
+.start-coll-btn:hover{
+  background-color: white;
+  color:#1a2236;
+}
 .foot-botom {
   background-color: #1a2236;
   height: 150px;

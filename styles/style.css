@@ -15,10 +15,11 @@ body {
 
 .ornament-top {
   display: inline;
-  animation: rotate 2s infinite;
+
+  /* animation: rotate 2s infinite; */
 }
 
-@keyframes rotate {
+/* @keyframes rotate {
   0% {
     transform: rotate(45deg);
   }
@@ -26,7 +27,7 @@ body {
   100% {
     transform: rotate(-45deg);
   }
-}
+} */
 
 .menu1 {
   display: inline;
@@ -260,7 +261,7 @@ body {
 .picture6,
 .ornament1,
 .ornament2,
-.ornament3, {
+.ornament3 {
   display: none;
 }
 
